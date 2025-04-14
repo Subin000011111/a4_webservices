@@ -4,10 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class A4WebservicesApplication {
+class A4WebServicesApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(A4WebservicesApplication.class, args);
+        SpringApplication.run(A4WebServicesApplication.class, args);
     }
-
 }
