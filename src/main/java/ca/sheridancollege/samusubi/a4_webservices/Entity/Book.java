@@ -18,8 +18,8 @@ public class Book implements Serializable {
     @Column(name = "TITLE")
     private String title;
 
-    @Column(name = "AUTHOR_NAME")
-    private String authorName;
+    @Column(name = "AUTHOR")
+    private String author;
 
     @Column(name = "PRICE")
     private Double price;
